@@ -1,0 +1,201 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'jshint' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'jshint', null ]
+7 verbose cache add name=undefined spec="jshint" args=["jshint",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jshint',
+8 verbose parsed url   path: 'jshint',
+8 verbose parsed url   href: 'jshint' }
+9 silly lockFile da5c03cb-jshint jshint
+10 verbose lock jshint /Users/jonhamshaw/.npm/da5c03cb-jshint.lock
+11 silly lockFile da5c03cb-jshint jshint
+12 silly lockFile da5c03cb-jshint jshint
+13 verbose addNamed [ 'jshint', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile a02a2468-jshint jshint@
+16 verbose lock jshint@ /Users/jonhamshaw/.npm/a02a2468-jshint.lock
+17 silly addNameRange { name: 'jshint', range: '', hasData: false }
+18 verbose url raw jshint
+19 verbose url resolving [ 'https://registry.npmjs.org/', './jshint' ]
+20 verbose url resolved https://registry.npmjs.org/jshint
+21 info trying registry request attempt 1 at 22:08:04
+22 verbose etag "1D3W6G705IF6HWBT00WV9R491"
+23 http GET https://registry.npmjs.org/jshint
+24 http 304 https://registry.npmjs.org/jshint
+25 silly registry.get cb [ 304,
+25 silly registry.get   { date: 'Thu, 03 Jul 2014 21:08:05 GMT',
+25 silly registry.get     server: 'Apache',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'last-modified': 'Thu, 03 Jul 2014 21:08:06 GMT',
+25 silly registry.get     'cache-control': 'max-age=30',
+25 silly registry.get     etag: '"1D3W6G705IF6HWBT00WV9R491"',
+25 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1404421685.108104,VS0,VE1022',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'content-length': '0',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 verbose etag jshint from cache
+27 silly addNameRange number 2 { name: 'jshint', range: '', hasData: true }
+28 silly addNameRange versions [ 'jshint',
+28 silly addNameRange   [ '0.1.8',
+28 silly addNameRange     '0.1.9',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.5.6',
+28 silly addNameRange     '0.5.7',
+28 silly addNameRange     '0.5.8',
+28 silly addNameRange     '0.5.9',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.9.0',
+28 silly addNameRange     '0.9.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.1.2',
+28 silly addNameRange     '2.1.3',
+28 silly addNameRange     '2.1.4',
+28 silly addNameRange     '2.1.5',
+28 silly addNameRange     '2.1.6',
+28 silly addNameRange     '2.1.7',
+28 silly addNameRange     '2.1.8',
+28 silly addNameRange     '2.1.9',
+28 silly addNameRange     '2.1.10',
+28 silly addNameRange     '2.1.11',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.4.1',
+28 silly addNameRange     '2.4.2',
+28 silly addNameRange     '2.4.3',
+28 silly addNameRange     '2.4.4',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1' ] ]
+29 verbose addNamed [ 'jshint', '2.5.1' ]
+30 verbose addNamed [ '2.5.1', '2.5.1' ]
+31 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+32 verbose lock jshint@2.5.1 /Users/jonhamshaw/.npm/f2bb41eb-jshint-2-5-1.lock
+33 verbose read json /Users/jonhamshaw/.npm/jshint/2.5.1/package/package.json
+34 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+35 silly lockFile f2bb41eb-jshint-2-5-1 jshint@2.5.1
+36 silly lockFile a02a2468-jshint jshint@
+37 silly lockFile a02a2468-jshint jshint@
+38 silly resolved [ { name: 'jshint',
+38 silly resolved     version: '2.5.1',
+38 silly resolved     homepage: 'http://jshint.com/',
+38 silly resolved     description: 'Static analysis tool for JavaScript',
+38 silly resolved     author:
+38 silly resolved      { name: 'Anton Kovalyov',
+38 silly resolved        email: 'anton@kovalyov.net',
+38 silly resolved        url: 'http://anton.kovalyov.net/' },
+38 silly resolved     repository: { type: 'git', url: 'https://github.com/jshint/jshint.git' },
+38 silly resolved     bugs: { url: 'https://github.com/jshint/jshint/issues' },
+38 silly resolved     bin: { jshint: './bin/jshint' },
+38 silly resolved     scripts:
+38 silly resolved      { data: 'node scripts/generate-identifier-data',
+38 silly resolved        build: 'node bin/build',
+38 silly resolved        test: 'nodeunit tests tests/regression tests/unit',
+38 silly resolved        pretest: 'jshint src' },
+38 silly resolved     main: './src/jshint.js',
+38 silly resolved     dependencies:
+38 silly resolved      { shelljs: '0.3.x',
+38 silly resolved        underscore: '1.6.x',
+38 silly resolved        cli: '0.6.x',
+38 silly resolved        minimatch: '0.x.x',
+38 silly resolved        htmlparser2: '3.7.x',
+38 silly resolved        'console-browserify': '1.1.x',
+38 silly resolved        exit: '0.1.x',
+38 silly resolved        'strip-json-comments': '0.1.x' },
+38 silly resolved     devDependencies:
+38 silly resolved      { jshint: '2.5.x',
+38 silly resolved        browserify: '4.x',
+38 silly resolved        coveraje: '0.2.x',
+38 silly resolved        nodeunit: '0.9.x',
+38 silly resolved        sinon: '1.9.x',
+38 silly resolved        'unicode-6.3.0': '0.1.x',
+38 silly resolved        regenerate: '0.6.x' },
+38 silly resolved     licenses: [ [Object] ],
+38 silly resolved     preferGlobal: true,
+38 silly resolved     files: [ 'bin', 'src', 'data', 'dist' ],
+38 silly resolved     readme: 'JSHint, A Static Code Analysis Tool for JavaScript\n--------------------------------------------------\n\n\\[ [Use it online](http://jshint.com/) •  [About](http://jshint.com/about/) •\n[Docs](http://jshint.com/docs/) • [FAQ](http://jshint.com/docs/faq) •\n[Install](http://jshint.com/install/) • [Hack](http://jshint.com/hack/) •\n[Blog](http://jshint.com/blog/) • [Twitter](https://twitter.com/jshint/) \\]\n\n[![Build Status](https://travis-ci.org/jshint/jshint.svg?branch=master)](https://travis-ci.org/jshint/jshint)\n[![NPM version](https://badge.fury.io/js/jshint.svg)](http://badge.fury.io/js/jshint)\n\nJSHint is a community-driven tool to detect errors and potential problems\nin JavaScript code. It is very flexible so you can easily adjust it to your\nparticular coding guidelines and the environment you expect your code to\nexecute in.\n\n#### Reporting a bug\n\nTo report a bug simply create a\n[new GitHub Issue](https://github.com/jshint/jshint/issues/new) and describe\nyour problem or suggestion. We welcome all kind of feedback regarding\nJSHint including but not limited to:\n\n * When JSHint doesn\'t work as expected\n * When JSHint complains about valid JavaScript code that works in all browsers\n * When you simply want a new option or feature\n\nBefore reporting a bug look around to see if there are any open or closed tickets\nthat cover your issue. And remember the wisdom: pull request > bug report > tweet.\n\n#### Issue Priority\n\n- *P1:* Something is throwing exceptions; broken JSHint backward compatibility.\n- *P2:* Something is not being parsed correctly.\n- *P3:* Features that the core team will work on once P2s and P1s are done.\n- *P4:* Patches welcome; The request is good, but low priority.\n\n\n#### License\n\nJSHint is distributed under the MIT License. One file and one file only\n(src/stable/jshint.js) is distributed under the slightly modified MIT License.\n\n\n#### Thank you!\n\nWe really appreciate all kind of feedback and contributions. Thanks for using and supporting JSHint!\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'jshint@2.5.1',
+38 silly resolved     _from: 'jshint@' } ]
+39 info install jshint@2.5.1 into /usr/local/lib
+40 info installOne jshint@2.5.1
+41 verbose from cache /Users/jonhamshaw/.npm/jshint/2.5.1/package/package.json
+42 info /usr/local/lib/node_modules/jshint unbuild
+43 verbose read json /usr/local/lib/node_modules/jshint/package.json
+44 verbose tar unpack /Users/jonhamshaw/.npm/jshint/2.5.1/package.tgz
+45 silly lockFile 60c9d5e1-sr-local-lib-node-modules-jshint /usr/local/lib/node_modules/jshint
+46 verbose lock /usr/local/lib/node_modules/jshint /Users/jonhamshaw/.npm/60c9d5e1-sr-local-lib-node-modules-jshint.lock
+47 silly lockFile 1b34343c-haw-npm-jshint-2-5-1-package-tgz /Users/jonhamshaw/.npm/jshint/2.5.1/package.tgz
+48 verbose lock /Users/jonhamshaw/.npm/jshint/2.5.1/package.tgz /Users/jonhamshaw/.npm/1b34343c-haw-npm-jshint-2-5-1-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint'
+50 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/local/lib/node_modules/jshint',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/local/lib/node_modules/jshint',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+50 error      'Object.oncomplete (fs.js:107:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Darwin 13.2.0
+53 error command "node" "/usr/local/bin/npm" "install" "-g" "jshint"
+54 error cwd /Users/jonhamshaw/src/marionette-tutorial
+55 error node -v v0.10.3
+56 error npm -v 1.2.17
+57 error path /usr/local/lib/node_modules/jshint
+58 error fstream_path /usr/local/lib/node_modules/jshint
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jshint'
+64 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+64 error fstream_stack Object.oncomplete (fs.js:107:15)
+65 verbose exit [ 3, true ]
